@@ -1,0 +1,14 @@
+Driver para Impresoras fiscales Hasar/Epson
+
+El proyecto esta en este momento funcionando como una mezcla de PHP y VB6.
+
+El codigo en VB6 se encarga de abrir el puerto serie y enviar la informacion, luego guarda la respuesta en un archivo de salida que se envia como argumento de la linea de comando
+
+El codigo en PHP es una clase que permite crear las partes del ticket fiscal y ejecutar la impresion del ticket
+
+Hasta ahora:
+- Impresion de un ticket con la impresora Hasar
+
+Por hacer:
+- Completar el codigo para las impresoras Hasar
+- Completar el codigo para las impresoras Epson

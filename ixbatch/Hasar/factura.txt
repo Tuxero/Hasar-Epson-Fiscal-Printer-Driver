@@ -1,0 +1,15 @@
+** Recuerde que si usa un modelo distinto de la h715 debe quitar
+** la direccion del comando SetcustomerData,
+** por ejemplo para una PR4F quedaria de la sig. forma
+** @SetCustomerData|ABBA Servitank|30702383923|I|C
+
+@SetCustomerData|ABBA Servitank|30702383923|I|C|Paunero 2770|
+@OpenFiscalReceipt|A|T
+@PrintLineItem|Pila Eveready 1.5V|2.0|1.50|21.0|M|0.0|1|B
+@PrintLineItem|Pila Eveready 9V|1.0|2.50|21.0|M|0.0|1|B
+@Subtotal|P|Subtotal|0|
+@TotalTender|Efectivo|20.00|T|0
+@CloseFiscalReceipt
+
+
+

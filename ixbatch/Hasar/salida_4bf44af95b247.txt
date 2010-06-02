@@ -1,0 +1,7 @@
+
+0@00808610Error en el numero de parametros0E4B
+2B00808620No hay 1 comprobante fiscal abierto0F27
+4C00808620No hay 1 comprobante fiscal abierto0F2A
+6D00808620No hay 1 comprobante fiscal abierto0F2D
+8E00808620No hay 1 comprobante fiscal abierto0F30
+
